@@ -5,18 +5,20 @@ werkzeug==3.0.1
 
 # Configuration
 python-dotenv==1.0.0
-
-# HTTP Requests
 requests==2.31.0
 
-# Data Processing - Python 3.11 uyumlu versiyonlar
-pandas==2.0.3
-numpy==1.24.4
+# Data Processing - Pandas geri döndü!
+pandas==2.1.4
+numpy==1.25.2
 openpyxl==3.1.2
 
-# NLP and AI - Hafif versiyonlar
+# NLP and AI - UYUMLU VERSİYONLAR
+huggingface_hub==0.16.4
+transformers==4.33.2
 sentence-transformers==2.2.2
 faiss-cpu==1.7.4
+
+# Basic NLP
 thefuzz==0.20.0
 
 # Document Processing
@@ -25,7 +27,10 @@ python-docx==1.1.0
 
 # Mathematics Engine - Temel paketler
 sympy==1.12
-scipy==1.10.1
+scipy==1.11.4
 
-# Minimum requirements
+# Performance
 numexpr==2.8.7
+
+# Production
+gunicorn==21.2.0
